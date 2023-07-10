@@ -1,4 +1,86 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.banner{
+    text-align: right;
+    background-image: url("./images/banner/banner1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-right: 100px;
+   
+}
+
+.banner-title{
+    padding-top: 200px;
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.banner-description{
+   padding-bottom: 30px;
+   font-size: 16px;
+   color: gray;
+}
+
+.banner-btn{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 7px;
+    background-color: tomato;
+    color: white;
+}
+.failures{
+    display: flex;
+    align-items: center;
+    padding: 50px 200px;
+
+}
+
+.failures-img{
+    width: 50%;
+}
+.failures-content{
+    margin-left: 100px;
+}
+.failures-content ul{
+list-style: none;
+margin-top: 20px;
+}
+
+.primary-heading{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.fa-solid{
+    color:red;
+}
+.my-plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 200px;
+}
+.p-heading{
+    text-align: center;
+}
+.plan {
+    text-align: center;
+}
+.mindset{
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url("./images/watch.png"),linear-gradient(90deg,rgba(255, 99, 71, 0.63),rgba(255, 99, 71, 0));
+    background-blend-mode: overlay;
+    /* background-position:bottom left ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 40px;
+    height: 300px;
+    padding-top: 100px;
+};

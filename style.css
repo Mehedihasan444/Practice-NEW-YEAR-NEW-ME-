@@ -84,3 +84,9 @@ margin-top: 20px;
     height: 300px;
     padding-top: 100px;
 };
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
